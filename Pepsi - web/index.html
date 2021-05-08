@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pepsi Landing Page</title>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="index.html"><img src="Logo/logo.png" class="logo" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>THAT'S WHAT <br><span>I LIKE</span></h2>
+                <p>We continue to make sure your Star balance and earned Rewards are transferred over. We will also be adding any Stars missing from your purchases in store since the 23rd September.</p>
+                <a href="#"><strong>VIEW ALL PRODUCTS</strong></a>
+            </div>
+            <div class="imgBox">
+                <img src="Product/pepsi001.png" class="pepsi" alt="Product 1">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="Product/pepsi001.png" alt="Product 1" onclick="imgSlider('Product/pepsi001.png');backgroundSwitch('#0062be')"></li>
+            <li><img src="Product/pepsi002.png" alt="Product 2" onclick="imgSlider('Product/pepsi002.png');backgroundSwitch('#e60c2c')"></li>
+            <li><img src="Product/pepsi003.png" alt="Product 3" onclick="imgSlider('Product/pepsi003.png');backgroundSwitch('#1e1e1e')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="Social/facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="Social/instagram.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="Social/twitter.png" alt="Twitter"></a></li>
+        </ul>
+    </section>
+    <script src="productSwitch.js"></script>
+    <script src="backgroundColorSwitch.js"></script>
+</body>
+</html>
